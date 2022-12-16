@@ -13,7 +13,7 @@ def choise_menu(choice):
         case 4:
             pb.add_contact()
         case 5:
-            pass
+            pb.change_contact()
         case 6:
             pb.remove_contact()
         case 7:

@@ -52,3 +52,18 @@ def input_find():
     print('Поиск не чувствителен к регистру.')
     find = input('Введите строку для поиска: ').lower()
     return find
+
+def input_change_contact():
+    print()
+    print_phone_book()
+    id = int(input('Введите ID контакта, который хотите изменить: '))
+    return id
+
+def change_menu():
+    print('Выберите команду ')
+    print('1. Если хотите изменить имя')
+    print('2. Если хотите изменить номер')
+    print('3. Если хотите изменить комментарий')
+    print('4. Если хотите изменить контакт полностью')
+    print('0. Выйти \n')
+    return input_menu()
